@@ -11,7 +11,7 @@ const searchBox = document.querySelector("#search-box");
 
 document.querySelector("#search-button").onclick = (e) => {
     searchForm.classList.toggle("active");
-    searchBox.focus();
+    searchBox.focus();  
     e.preventDefault();
 };
 
